@@ -5,10 +5,10 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         Autor autor1 = new Autor("vmflkdvmdfv");
-        Autor autor2 = new Autor("George R.R. Martin");
+        Autor autor2 = new Autor("gjghhgyiuu");
 
         Livro livro1 = new Livro("rlg,trlmr");
-        Livro livro2 = new Livro("A Guerra dos Tronos");
+        Livro livro2 = new Livro("mhghjfyguy");
 
         autor1.adicionarLivro(livro1);
         autor2.adicionarLivro(livro2);
@@ -19,6 +19,10 @@ public class Main {
 
         System.out.println(autor1);
         System.out.println(livro1);
+        System.out.println(usuario);
+        System.out.println(emprestimo);
+        System.out.println(autor2);
+        System.out.println(livro2);
         System.out.println(usuario);
         System.out.println(emprestimo);
     }
